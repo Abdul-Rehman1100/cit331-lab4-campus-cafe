@@ -52,7 +52,7 @@ textarea:focus-visible {
   outline-offset: 3px;
 }
 
-/* ---------- 3. Page shell ---------- */
+/* ---------- 3. Page shell --------- */
 #main {
   max-width: 1000px;
   margin: 0 auto;
