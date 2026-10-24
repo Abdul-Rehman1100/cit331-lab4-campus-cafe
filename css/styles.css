@@ -342,7 +342,7 @@ input[placeholder]:not(:placeholder-shown):invalid {
   gap: 8px 24px;
 }
 
-/* ---------- 12. Flexbox: cards and menu ---------- */
+/* --------- 12. Flexbox: cards and menu --------- */
 .card-row {
   display: flex;
   flex-wrap: wrap;
