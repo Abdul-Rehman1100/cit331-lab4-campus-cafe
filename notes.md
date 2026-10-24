@@ -33,3 +33,18 @@ A more specific CSS selector overrides a less specific one because the browser c
 | **Attribute** | `a[href^="http"]` |
 | **Pseudo-class** | `a:hover` |
 | **Pseudo-element** | `::placeholder` |
+
+
+| # | File/element | Problem found | How I detected it | Fix |
+|---|---|---|---|---|
+| 1 | bugs.html | Wrong CSS filename in the stylesheet link (`href="style.css"`). | Network | Change `href="style.css"` to `href="bugs.css"`. |
+| 2 | bugs.html | Missing document language attribute on the `<html>` tag. | Validator | Change `<html>` to `<html lang="en">`. |
+| 3 | bugs.html | Heading level structural error: skips directly from `<h1>` to `<h4>`. | Accessibility tree | Change `<h4>` to `<h2>`. |
+| 4 | bugs.html | Navigation uses a generic `<div>` wrapper instead of an accessibility landmark. | Lighthouse | Replace the navigation wrapper with `<nav aria-label="Main">` and its closing `</nav>`. |
+| 5 | bugs.html | Logo image element has no alternative text attribute (`alt`). | Lighthouse | Add `alt="Campus Café logo"` to the image. |
+| 6 | bugs.html | Label points to the wrong field because `for="mail"` does not match `id="email"`. | Form label test | Change `for="mail"` to `for="email"`. |
+| 7 | bugs.css | Invalid CSS color property name (`colour: #ffffff;`). | Styles pane | Change `colour` to `color`. |
+| 8 | bugs.css | Missing CSS statement terminator semicolon (`;`) after `background: #0b1f3a`. | Styles pane | Add `;` after `background: #0b1f3a`. |
+| 9 | bugs.css | CSS class selector `.notes` does not match the singular `class="note"` used in the HTML. | Elements panel | Change `.notes` to `.note`. |
+| 10 | bugs.html | Submit button lacks an explicit functional action type attribute. | Code inspection | Add `type="submit"` to the `<button>` element. |
+
