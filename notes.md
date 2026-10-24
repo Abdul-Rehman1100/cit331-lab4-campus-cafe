@@ -13,3 +13,23 @@
 ## Why is this address http and not https?
 
 Localhost traffic stays entirely inside your own computer and never travels across the public internet where it could be intercepted. Because of this isolation, there is no risk of network eavesdropping, making the encryption and security certificates of HTTPS unnecessary for basic local development.
+
+## Specificity
+
+A more specific CSS selector overrides a less specific one because the browser calculates a strict numeric weight score for each rule, prioritizing localized declarations matching exact attributes or IDs over general, broad element definitions.
+
+## Selectors I used
+
+| Selector kind | Example from my CSS |
+| :--- | :--- |
+| **Element** | `body` |
+| **Class** | `.hero` |
+| **ID** | `#main` |
+| **Grouping (comma)** | `h1, h2, h3` |
+| **Descendant (space)** | `.nav-list a` |
+| **Child (>)** | `main > section` |
+| **Adjacent sibling (+)** | `h1 + p` |
+| **Compound** | `a.active` |
+| **Attribute** | `a[href^="http"]` |
+| **Pseudo-class** | `a:hover` |
+| **Pseudo-element** | `::placeholder` |
