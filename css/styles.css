@@ -316,7 +316,7 @@ input[placeholder]:not(:placeholder-shown):invalid {
   border-radius: 8px;
 }
 
-/* ---------- 11. Flexbox: header, nav, footer ---------- */
+/* --------- 11. Flexbox: header, nav, footer --------- */
 .site-header {
   display: flex;
   flex-wrap: wrap;
@@ -342,7 +342,7 @@ input[placeholder]:not(:placeholder-shown):invalid {
   gap: 8px 24px;
 }
 
-/* ---------- 12. Flexbox: cards and menu ---------- */
+/* --------- 12. Flexbox: cards and menu --------- */
 .card-row {
   display: flex;
   flex-wrap: wrap;
@@ -410,7 +410,7 @@ fieldset.choice {
 .saved-orders { margin-top: 40px; }
 .table-wrap { overflow-x: auto; margin-bottom: 16px; }
 
-/* ---------- 14. Responsive ---------- */
+/* --------- 14. Responsive --------- */
 img {
   max-width: 100%;
   height: auto;
