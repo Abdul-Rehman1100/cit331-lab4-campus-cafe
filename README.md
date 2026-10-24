@@ -3,8 +3,9 @@
 A three-page website for a fictional university coffee shop.
 Built for CIT331 Web Technologies, Lab 4.
 
-**Live website:** https://cit331-lab4-campus-cafe-eta.vercel.app/
+**Live website vercel:** https://cit331-lab4-campus-cafe-eta.vercel.app/
 **Repository:** https://github.com/Abdul-Rehman1100/cit331-lab4-campus-cafe.git
+**Live website github pages:** https://abdul-rehman1100.github.io/cit331-lab4-campus-cafe/
 
 ## Pages
 - Home (index.html)
