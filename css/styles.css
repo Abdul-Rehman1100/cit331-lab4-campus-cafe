@@ -316,7 +316,7 @@ input[placeholder]:not(:placeholder-shown):invalid {
   border-radius: 8px;
 }
 
-/* ---------- 11. Flexbox: header, nav, footer ---------- */
+/* --------- 11. Flexbox: header, nav, footer --------- */
 .site-header {
   display: flex;
   flex-wrap: wrap;
